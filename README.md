@@ -20,16 +20,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<iframe src="//player.bilibili.com/player.html?aid=586834775&bvid=BV1Xz4y127nj&cid=301381129&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-<iframe src="//player.bilibili.com/player.html?aid=586834775&bvid=BV1Xz4y127nj&cid=301381129&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-
-
-
-
-```xml
-<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg">
-      <source id="mp4" src="https://www.bilibili.com/video/BV1Xz4y127nj" type="video/mp4">
-      </video>
-```
 
