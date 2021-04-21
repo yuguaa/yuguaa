@@ -1,6 +1,6 @@
 <img align="right" src="https://github-readme-stats.vercel.app/api?username=yuguaa&show_icons=true&icon_color=409EFF&text_color=718096&bg_color=ffffff&hide_title=true" />
 
-### Hello !!! 👋
+### Hi here ! 👋
 
 - :orange_book: Focusing on JS
 - :pencil2: Swot at Vue&React
