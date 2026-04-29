@@ -1,0 +1,64 @@
+<svg width="920" height="84" viewBox="0 0 920 84" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Neon glitch strip">
+  <defs>
+    <linearGradient id="neon" x1="64" y1="0" x2="856" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00F5FF"/>
+      <stop offset="0.46" stop-color="#FF2BD6"/>
+      <stop offset="1" stop-color="#F9F871"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-120%" width="140%" height="340%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes jitterA {
+        0%, 100% { transform: translateX(0); opacity: .25; }
+        8% { transform: translateX(18px); opacity: .95; }
+        12% { transform: translateX(-10px); opacity: .45; }
+        18% { transform: translateX(4px); opacity: .75; }
+        24%, 70% { transform: translateX(0); opacity: .22; }
+        76% { transform: translateX(-22px); opacity: .8; }
+        80% { transform: translateX(12px); opacity: .36; }
+      }
+
+      @keyframes jitterB {
+        0%, 100% { transform: translateX(0); opacity: .2; }
+        14% { transform: translateX(-16px); opacity: .75; }
+        20% { transform: translateX(8px); opacity: .4; }
+        48% { transform: translateX(0); opacity: .2; }
+        56% { transform: translateX(24px); opacity: .9; }
+        60% { transform: translateX(-14px); opacity: .36; }
+      }
+
+      @keyframes scan {
+        0% { transform: translateX(-820px); opacity: 0; }
+        18% { opacity: .92; }
+        42% { opacity: .2; }
+        72% { opacity: .86; }
+        100% { transform: translateX(820px); opacity: 0; }
+      }
+
+      .jitter-a { animation: jitterA 3.8s steps(2, end) infinite; transform-box: fill-box; }
+      .jitter-b { animation: jitterB 4.4s steps(2, end) infinite; transform-box: fill-box; }
+      .scanner { animation: scan 5.6s linear infinite; }
+      .dim { opacity: .28; }
+    </style>
+  </defs>
+
+  <g filter="url(#softGlow)">
+    <path d="M70 42H850" stroke="url(#neon)" stroke-width="2"/>
+    <path class="dim" d="M96 28H274M646 28H804M180 56H406M532 56H732" stroke="#00F5FF" stroke-width="1"/>
+    <path class="jitter-a" d="M142 35H266M602 35H770" stroke="#FF2BD6" stroke-width="4" stroke-linecap="square"/>
+    <path class="jitter-b" d="M82 48H208M724 48H852" stroke="#F9F871" stroke-width="3" stroke-linecap="square"/>
+    <rect class="scanner" x="440" y="18" width="90" height="48" fill="#00F5FF" opacity=".16"/>
+    <rect x="70" y="40" width="10" height="4" fill="#F9F871"/>
+    <rect x="840" y="40" width="10" height="4" fill="#FF2BD6"/>
+  </g>
+
+  <text x="460" y="47" text-anchor="middle" fill="#E0F2FE" font-family="Fira Code, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="4">
+    SIGNAL_GLITCH // VUE_CITY
+    <animate attributeName="opacity" values="1;.35;1;.65;1" dur="2.8s" repeatCount="indefinite"/>
+  </text>
+</svg>
