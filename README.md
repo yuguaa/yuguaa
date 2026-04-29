@@ -1,8 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:050816,18:00F5FF,42:111827,68:FF2BD6,100:F9F871&text=Yuguaa&fontAlign=50&fontAlignY=36&fontColor=FFFFFF&fontSize=68&desc=NEON%20FRONTEND%20RUNNER%20%2F%20VUE%20INTERFACE%20CRAFT&descAlign=50&descAlignY=62&animation=twinkling" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:F8FAFC,26:00A6FF,58:FF2BD6,100:F9F871&text=Yuguaa&fontAlign=50&fontAlignY=36&fontColor=111827&fontSize=68&desc=NEON%20FRONTEND%20RUNNER%20%2F%20VUE%20INTERFACE%20CRAFT&descAlign=50&descAlignY=62&animation=twinkling" />
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:050816,18:00F5FF,42:111827,68:FF2BD6,100:F9F871&text=Yuguaa&fontAlign=50&fontAlignY=36&fontColor=FFFFFF&fontSize=68&desc=NEON%20FRONTEND%20RUNNER%20%2F%20VUE%20INTERFACE%20CRAFT&descAlign=50&descAlignY=62&animation=twinkling" alt="Yuguaa" />
-</picture>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:F9F871,45:FF2BD6,100:00F5FF&text=Yuguaa&fontAlign=50&fontAlignY=36&fontColor=FFFFFF&fontSize=68&desc=NEON%20FRONTEND%20RUNNER%20%2F%20VUE%20INTERFACE%20CRAFT&descAlign=50&descAlignY=62&animation=twinkling" alt="Yuguaa" />
 
 <p align="center">
   <picture>
