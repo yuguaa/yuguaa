@@ -17,33 +17,17 @@
   <img src="./assets/neon-glitch-strip.svg" alt="Neon Glitch Strip" />
 </p>
 
-<table>
-  <tr>
-    <td width="62%">
-
-<pre>
-╭─ NEON UPLINK / 03:17 AM ─────────────────────╮
-│ operator  : yuguaa                            │
-│ channel   : Vue3 / TypeScript / Element Plus X│
-│ signal    : clean components, loud pixels     │
-│ warning   : interface may glow after midnight │
-╰───────────────────────────────────────────────╯
-</pre>
-
-  </td>
-  <td width="38%" align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=18&duration=1600&pause=400&color=FF2BD6&center=true&vCenter=true&width=320&lines=%E2%97%86+NEON+MODE;%E2%97%87+VUE+ONLINE;%E2%97%86+TYPE+SAFE;%E2%97%87+UI+NOISE" alt="Neon Mode" />
-    <br />
-    <sub>low light / high contrast / no boring panels</sub>
-  </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./assets/uplink-glitch-gate.svg" alt="Neon Uplink" />
+</p>
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=yuguaa&theme=radical&no-frame=true&no-bg=true&row=1&column=6&margin-w=12&margin-h=12" alt="GitHub Trophy" />
 </p>
 
-## 🧪 Arsenal // Neon Rack
+<p align="center">
+  <img src="./assets/stack-glitch-gate.svg" alt="Stack Signal Leak" />
+</p>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js,ts,vue,react,vite,webpack,tailwind,nodejs&theme=dark" alt="Tech Stack" />
@@ -53,10 +37,8 @@
   <img src="./assets/neon-glitch-strip.svg" alt="Neon Glitch Strip" />
 </p>
 
-## 📊 Control Room // Live Telemetry
-
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yuguaa&theme=radical&hide_border=true&bg_color=00000000&layout=compact&langs_count=8" alt="Top Languages" />
+  <img src="./assets/telemetry-glitch-gate.svg" alt="Live Telemetry Leak" />
 </p>
 
 <p align="center">
@@ -79,10 +61,12 @@
   <img src="./assets/neon-glitch-strip.svg" alt="Neon Glitch Strip" />
 </p>
 
-## 🐍 Contribution Trace // Glitch Trail
+<p align="center">
+  <img src="./assets/commit-glitch-gate.svg" alt="Commit Glitch Gate" />
+</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=20&duration=1500&pause=350&color=F9F871&center=true&vCenter=true&width=760&lines=%5Btrace%5D+contribution+signal+detected;%5Bgrid%5D+snake+route+rendering;%5Bheat%5D+commit+cells+overclocked;%5Bsync%5D+output+branch+online" alt="Contribution Trace" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=22&duration=1200&pause=260&color=F9F871&center=true&vCenter=true&width=860&lines=%E2%96%88%E2%96%88+commit+heat+leak+detected;%E2%96%93%E2%96%92+grid+cells+burning+cyan;%E2%96%91%E2%96%91+snake+route+cuts+through+noise;%3E%3E%3E+output+branch+transmitting" alt="Contribution Trace" />
 </p>
 
 <p align="center">
@@ -94,16 +78,9 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:050816,28:00F5FF,55:FF2BD6,100:F9F871&text=COMMIT%20TRAIL%20%2F%2F%20LIVE%20NEON%20GRID&fontAlign=50&fontAlignY=50&fontColor=FFFFFF&fontSize=22&animation=blinking" alt="Commit Trail" />
-</p>
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" />
-</p>
-
-<p align="center">
   <img src="./assets/neon-glitch-strip.svg" alt="Neon Glitch Strip" />
 </p>
+
 
 <p align="center">
   <b>TRANSMISSION ENDS. SYSTEM STILL GLOWING.</b>

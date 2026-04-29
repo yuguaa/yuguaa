@@ -1,0 +1,31 @@
+<svg width="920" height="170" viewBox="0 0 920 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Telemetry glitch gate">
+  <defs>
+    <linearGradient id="gateLine" x1="80" y1="0" x2="840" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F9F871"/>
+      <stop offset=".3" stop-color="#FF2BD6"/>
+      <stop offset=".64" stop-color="#00F5FF"/>
+      <stop offset="1" stop-color="#39FF14"/>
+    </linearGradient>
+    <filter id="hotGlow" x="-20%" y="-60%" width="140%" height="220%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes tear { 0%,100%{transform:translateX(0);opacity:.34} 9%{transform:translateX(-28px);opacity:.94} 14%{transform:translateX(16px);opacity:.48} 21%{transform:translateX(-8px);opacity:.78} 26%,66%{transform:translateX(0);opacity:.27} 74%{transform:translateX(34px);opacity:.96} 80%{transform:translateX(-18px);opacity:.42} }
+      @keyframes pulse { 0%,100%{opacity:.35} 50%{opacity:1} }
+      .tear-a{animation:tear 3.6s steps(2,end) infinite;transform-box:fill-box}.tear-b{animation:tear 4.5s steps(2,end) infinite reverse;transform-box:fill-box}.pulse{animation:pulse 2.5s ease-in-out infinite}.title{font:900 29px "Fira Code",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:5px}.sub{font:800 12px "Fira Code",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:5px}
+    </style>
+  </defs>
+  <rect width="920" height="170" fill="transparent"/>
+  <g filter="url(#hotGlow)">
+    <path d="M70 28H850M70 142H850" stroke="url(#gateLine)" stroke-width="2"/>
+    <path class="tear-a" d="M108 54H324M596 54H816" stroke="#F9F871" stroke-width="7" stroke-linecap="square"/>
+    <path class="tear-b" d="M148 110H402M548 110H780" stroke="#FF2BD6" stroke-width="6" stroke-linecap="square"/>
+    <path class="tear-a" d="M78 78H222M700 78H846" stroke="#00F5FF" stroke-width="4" stroke-linecap="square"/>
+    <text class="title" x="460" y="82" text-anchor="middle" fill="#E0F2FE">LIVE TELEMETRY LEAK</text>
+    <text class="title tear-a" x="457" y="82" text-anchor="middle" fill="#F9F871" opacity=".35">LIVE TELEMETRY LEAK</text>
+    <text class="title tear-b" x="463" y="82" text-anchor="middle" fill="#00F5FF" opacity=".34">LIVE TELEMETRY LEAK</text>
+    <text class="sub pulse" x="460" y="116" text-anchor="middle" fill="#39FF14">STREAK / ACTIVITY / LANGUAGE SIGNAL / COMMIT HEAT</text>
+  </g>
+  <g class="pulse"><circle cx="92" cy="28" r="4" fill="#F9F871"/><circle cx="828" cy="142" r="4" fill="#00F5FF"/><circle cx="128" cy="142" r="3" fill="#FF2BD6"/><circle cx="792" cy="28" r="3" fill="#39FF14"/></g>
+</svg>

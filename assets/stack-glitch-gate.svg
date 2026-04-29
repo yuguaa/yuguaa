@@ -1,0 +1,31 @@
+<svg width="920" height="170" viewBox="0 0 920 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stack glitch gate">
+  <defs>
+    <linearGradient id="gateLine" x1="80" y1="0" x2="840" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#39FF14"/>
+      <stop offset=".32" stop-color="#00F5FF"/>
+      <stop offset=".66" stop-color="#FF2BD6"/>
+      <stop offset="1" stop-color="#F9F871"/>
+    </linearGradient>
+    <filter id="hotGlow" x="-20%" y="-60%" width="140%" height="220%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes tear { 0%,100%{transform:translateX(0);opacity:.35} 8%{transform:translateX(26px);opacity:.92} 13%{transform:translateX(-14px);opacity:.45} 20%{transform:translateX(6px);opacity:.76} 24%,62%{transform:translateX(0);opacity:.28} 72%{transform:translateX(-30px);opacity:.96} 77%{transform:translateX(18px);opacity:.45} }
+      @keyframes pulse { 0%,100%{opacity:.35} 50%{opacity:1} }
+      .tear-a{animation:tear 3.3s steps(2,end) infinite;transform-box:fill-box}.tear-b{animation:tear 4.1s steps(2,end) infinite reverse;transform-box:fill-box}.pulse{animation:pulse 2.2s ease-in-out infinite}.title{font:900 30px "Fira Code",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:6px}.sub{font:800 12px "Fira Code",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:5px}
+    </style>
+  </defs>
+  <rect width="920" height="170" fill="transparent"/>
+  <g filter="url(#hotGlow)">
+    <path d="M70 28H850M70 142H850" stroke="url(#gateLine)" stroke-width="2"/>
+    <path class="tear-a" d="M92 52H282M642 52H826" stroke="#39FF14" stroke-width="7" stroke-linecap="square"/>
+    <path class="tear-b" d="M162 112H430M526 112H762" stroke="#00F5FF" stroke-width="6" stroke-linecap="square"/>
+    <path class="tear-a" d="M76 80H218M704 80H846" stroke="#FF2BD6" stroke-width="4" stroke-linecap="square"/>
+    <text class="title" x="460" y="82" text-anchor="middle" fill="#E0F2FE">STACK SIGNAL LEAK</text>
+    <text class="title tear-a" x="456" y="82" text-anchor="middle" fill="#39FF14" opacity=".36">STACK SIGNAL LEAK</text>
+    <text class="title tear-b" x="464" y="82" text-anchor="middle" fill="#FF2BD6" opacity=".34">STACK SIGNAL LEAK</text>
+    <text class="sub pulse" x="460" y="116" text-anchor="middle" fill="#F9F871">JS / TS / VUE / REACT / VITE / WEBPACK / TAILWIND / NODE</text>
+  </g>
+  <g class="pulse"><circle cx="92" cy="28" r="4" fill="#39FF14"/><circle cx="828" cy="142" r="4" fill="#00F5FF"/><circle cx="128" cy="142" r="3" fill="#FF2BD6"/><circle cx="792" cy="28" r="3" fill="#F9F871"/></g>
+</svg>

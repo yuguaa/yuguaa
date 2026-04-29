@@ -1,0 +1,32 @@
+<svg width="920" height="210" viewBox="0 0 920 210" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Neon uplink glitch gate">
+  <defs>
+    <linearGradient id="gateLine" x1="70" y1="0" x2="850" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00F5FF"/>
+      <stop offset=".3" stop-color="#39FF14"/>
+      <stop offset=".62" stop-color="#FF2BD6"/>
+      <stop offset="1" stop-color="#F9F871"/>
+    </linearGradient>
+    <filter id="hotGlow" x="-20%" y="-60%" width="140%" height="220%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes tear { 0%,100%{transform:translateX(0);opacity:.35} 7%{transform:translateX(-30px);opacity:.95} 11%{transform:translateX(18px);opacity:.44} 19%{transform:translateX(-8px);opacity:.78} 24%,64%{transform:translateX(0);opacity:.26} 72%{transform:translateX(36px);opacity:.96} 78%{transform:translateX(-16px);opacity:.44} }
+      @keyframes pulse { 0%,100%{opacity:.35} 50%{opacity:1} }
+      .tear-a{animation:tear 3.2s steps(2,end) infinite;transform-box:fill-box}.tear-b{animation:tear 4.4s steps(2,end) infinite reverse;transform-box:fill-box}.pulse{animation:pulse 2.5s ease-in-out infinite}.title{font:900 30px "Fira Code",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:6px}.line{font:800 14px "Fira Code",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:2px}
+    </style>
+  </defs>
+  <rect width="920" height="210" fill="transparent"/>
+  <g filter="url(#hotGlow)">
+    <path d="M70 28H850M70 182H850" stroke="url(#gateLine)" stroke-width="2"/>
+    <path class="tear-a" d="M96 54H306M616 54H820" stroke="#00F5FF" stroke-width="7" stroke-linecap="square"/>
+    <path class="tear-b" d="M142 150H420M536 150H772" stroke="#FF2BD6" stroke-width="6" stroke-linecap="square"/>
+    <path class="tear-a" d="M78 88H210M710 88H846" stroke="#F9F871" stroke-width="4" stroke-linecap="square"/>
+    <text class="title" x="460" y="78" text-anchor="middle" fill="#E0F2FE">NEON UPLINK</text>
+    <text class="title tear-a" x="456" y="78" text-anchor="middle" fill="#00F5FF" opacity=".36">NEON UPLINK</text>
+    <text class="title tear-b" x="464" y="78" text-anchor="middle" fill="#FF2BD6" opacity=".34">NEON UPLINK</text>
+    <text class="line" x="460" y="112" text-anchor="middle" fill="#39FF14">operator:yuguaa / channel:Vue3-TypeScript-ElementPlusX</text>
+    <text class="line pulse" x="460" y="140" text-anchor="middle" fill="#F9F871">clean components / loud pixels / midnight interface craft</text>
+  </g>
+  <g class="pulse"><circle cx="92" cy="28" r="4" fill="#F9F871"/><circle cx="828" cy="182" r="4" fill="#00F5FF"/><circle cx="128" cy="182" r="3" fill="#FF2BD6"/><circle cx="792" cy="28" r="3" fill="#39FF14"/></g>
+</svg>
