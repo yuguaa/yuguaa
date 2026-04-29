@@ -22,10 +22,10 @@
     <path class="tear-a" d="M92 52H282M642 52H826" stroke="#39FF14" stroke-width="7" stroke-linecap="square"/>
     <path class="tear-b" d="M162 112H430M526 112H762" stroke="#00F5FF" stroke-width="6" stroke-linecap="square"/>
     <path class="tear-a" d="M76 80H218M704 80H846" stroke="#FF2BD6" stroke-width="4" stroke-linecap="square"/>
-    <text class="title" x="460" y="82" text-anchor="middle" fill="#E0F2FE">STACK SIGNAL LEAK</text>
-    <text class="title tear-a" x="456" y="82" text-anchor="middle" fill="#39FF14" opacity=".36">STACK SIGNAL LEAK</text>
-    <text class="title tear-b" x="464" y="82" text-anchor="middle" fill="#FF2BD6" opacity=".34">STACK SIGNAL LEAK</text>
-    <text class="sub pulse" x="460" y="116" text-anchor="middle" fill="#F9F871">JS / TS / VUE / REACT / VITE / WEBPACK / TAILWIND / NODE</text>
+    <text class="title" x="460" y="82" text-anchor="middle" fill="#111827">STACK SIGNAL LEAK</text>
+    <text class="title tear-a" x="456" y="82" text-anchor="middle" fill="#166534" opacity=".44">STACK SIGNAL LEAK</text>
+    <text class="title tear-b" x="464" y="82" text-anchor="middle" fill="#FF2BD6" opacity=".45">STACK SIGNAL LEAK</text>
+    <text class="sub pulse" x="460" y="116" text-anchor="middle" fill="#7C2D12">JS / TS / VUE / REACT / VITE / WEBPACK / TAILWIND / NODE</text>
   </g>
-  <g class="pulse"><circle cx="92" cy="28" r="4" fill="#39FF14"/><circle cx="828" cy="142" r="4" fill="#00F5FF"/><circle cx="128" cy="142" r="3" fill="#FF2BD6"/><circle cx="792" cy="28" r="3" fill="#F9F871"/></g>
+  <g class="pulse"><circle cx="92" cy="28" r="4" fill="#166534"/><circle cx="828" cy="142" r="4" fill="#00F5FF"/><circle cx="128" cy="142" r="3" fill="#FF2BD6"/><circle cx="792" cy="28" r="3" fill="#7C2D12"/></g>
 </svg>

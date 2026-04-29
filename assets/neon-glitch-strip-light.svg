@@ -43,11 +43,11 @@
     <path class="dim" d="M96 28H274M646 28H804M180 56H406M532 56H732" stroke="#00F5FF" stroke-width="1"/>
     <path class="jitter-a" d="M142 35H266M602 35H770" stroke="#FF2BD6" stroke-width="4" stroke-linecap="square"/>
     <path class="jitter-b" d="M82 48H208M724 48H852" stroke="#F9F871" stroke-width="3" stroke-linecap="square"/>
-    <rect x="70" y="40" width="10" height="4" fill="#F9F871"/>
+    <rect x="70" y="40" width="10" height="4" fill="#7C2D12"/>
     <rect x="840" y="40" width="10" height="4" fill="#FF2BD6"/>
   </g>
 
-  <text x="460" y="47" text-anchor="middle" fill="#E0F2FE" font-family="Fira Code, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="3">
+  <text x="460" y="47" text-anchor="middle" fill="#111827" font-family="Fira Code, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="3">
     SIGNAL_GLITCH // VUE_CITY
     <animate attributeName="opacity" values="1;.35;1;.65;1" dur="2.8s" repeatCount="indefinite"/>
   </text>

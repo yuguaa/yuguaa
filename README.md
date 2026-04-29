@@ -1,7 +1,15 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:050816,18:00F5FF,42:111827,68:FF2BD6,100:F9F871&text=Yuguaa&fontAlign=50&fontAlignY=36&fontColor=FFFFFF&fontSize=68&desc=NEON%20FRONTEND%20RUNNER%20%2F%20VUE%20INTERFACE%20CRAFT&descAlign=50&descAlignY=62&animation=twinkling" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:050816,18:00F5FF,42:111827,68:FF2BD6,100:F9F871&text=Yuguaa&fontAlign=50&fontAlignY=36&fontColor=FFFFFF&fontSize=68&desc=NEON%20FRONTEND%20RUNNER%20%2F%20VUE%20INTERFACE%20CRAFT&descAlign=50&descAlignY=62&animation=twinkling" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:F8FAFC,26:00A6FF,58:FF2BD6,100:F9F871&text=Yuguaa&fontAlign=50&fontAlignY=36&fontColor=111827&fontSize=68&desc=NEON%20FRONTEND%20RUNNER%20%2F%20VUE%20INTERFACE%20CRAFT&descAlign=50&descAlignY=62&animation=twinkling" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:050816,18:00F5FF,42:111827,68:FF2BD6,100:F9F871&text=Yuguaa&fontAlign=50&fontAlignY=36&fontColor=FFFFFF&fontSize=68&desc=NEON%20FRONTEND%20RUNNER%20%2F%20VUE%20INTERFACE%20CRAFT&descAlign=50&descAlignY=62&animation=twinkling" alt="Yuguaa" />
+</picture>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=700&color=00F5FF&center=true&vCenter=true&width=900&lines=%E2%96%88%E2%96%92%E2%96%91+booting+Element+Plus+X;%3E+compiling+Vue3+neon+components;%3E+typing+the+city+with+TypeScript;%E2%96%93%E2%96%92%E2%96%91+shipping+interfaces+after+midnight;%3E+signal+unstable+%2F%2F+build+still+green" alt="Typing SVG" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=700&color=00F5FF&center=true&vCenter=true&width=900&lines=%E2%96%88%E2%96%92%E2%96%91+booting+Element+Plus+X;%3E+compiling+Vue3+neon+components;%3E+typing+the+city+with+TypeScript;%E2%96%93%E2%96%92%E2%96%91+shipping+interfaces+after+midnight;%3E+signal+unstable+%2F%2F+build+still+green" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=700&color=7C3AED&center=true&vCenter=true&width=900&lines=%E2%96%88%E2%96%92%E2%96%91+booting+Element+Plus+X;%3E+compiling+Vue3+neon+components;%3E+typing+the+city+with+TypeScript;%E2%96%93%E2%96%92%E2%96%91+shipping+interfaces+after+midnight;%3E+signal+unstable+%2F%2F+build+still+green" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=700&color=00F5FF&center=true&vCenter=true&width=900&lines=%E2%96%88%E2%96%92%E2%96%91+booting+Element+Plus+X;%3E+compiling+Vue3+neon+components;%3E+typing+the+city+with+TypeScript;%E2%96%93%E2%96%92%E2%96%91+shipping+interfaces+after+midnight;%3E+signal+unstable+%2F%2F+build+still+green" alt="Typing SVG" />
+  </picture>
 </p>
 
 <p align="center">
@@ -14,11 +22,19 @@
 </p>
 
 <p align="center">
-  <img src="./assets/neon-glitch-strip.svg" alt="Neon Glitch Strip" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/neon-glitch-strip.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/neon-glitch-strip-light.svg" />
+    <img src="./assets/neon-glitch-strip.svg" alt="Neon Glitch Strip" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="./assets/uplink-glitch-gate.svg" alt="Neon Uplink" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/uplink-glitch-gate.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/uplink-glitch-gate-light.svg" />
+    <img src="./assets/uplink-glitch-gate.svg" alt="Neon Uplink" />
+  </picture>
 </p>
 
 <p align="center">
@@ -26,7 +42,11 @@
 </p>
 
 <p align="center">
-  <img src="./assets/stack-glitch-gate.svg" alt="Stack Signal Leak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-glitch-gate.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/stack-glitch-gate-light.svg" />
+    <img src="./assets/stack-glitch-gate.svg" alt="Stack Signal Leak" />
+  </picture>
 </p>
 
 <p align="center">
@@ -34,11 +54,19 @@
 </p>
 
 <p align="center">
-  <img src="./assets/neon-glitch-strip.svg" alt="Neon Glitch Strip" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/neon-glitch-strip.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/neon-glitch-strip-light.svg" />
+    <img src="./assets/neon-glitch-strip.svg" alt="Neon Glitch Strip" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="./assets/telemetry-glitch-gate.svg" alt="Live Telemetry Leak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/telemetry-glitch-gate.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/telemetry-glitch-gate-light.svg" />
+    <img src="./assets/telemetry-glitch-gate.svg" alt="Live Telemetry Leak" />
+  </picture>
 </p>
 
 <p align="center">
@@ -58,11 +86,19 @@
 </p>
 
 <p align="center">
-  <img src="./assets/neon-glitch-strip.svg" alt="Neon Glitch Strip" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/neon-glitch-strip.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/neon-glitch-strip-light.svg" />
+    <img src="./assets/neon-glitch-strip.svg" alt="Neon Glitch Strip" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="./assets/commit-glitch-gate.svg" alt="Commit Glitch Gate" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/commit-glitch-gate.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/commit-glitch-gate-light.svg" />
+    <img src="./assets/commit-glitch-gate.svg" alt="Commit Glitch Gate" />
+  </picture>
 </p>
 
 <p align="center">
@@ -78,7 +114,11 @@
 </p>
 
 <p align="center">
-  <img src="./assets/neon-glitch-strip.svg" alt="Neon Glitch Strip" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/neon-glitch-strip.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/neon-glitch-strip-light.svg" />
+    <img src="./assets/neon-glitch-strip.svg" alt="Neon Glitch Strip" />
+  </picture>
 </p>
 
 
